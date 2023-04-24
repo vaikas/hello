@@ -1,0 +1,101 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:0b71c68c-525d-4789-aa09-45805d296eb8",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-04-24T12:42:55-06:00",
+    "tools": [],
+    "component": {
+      "bom-ref": "pkg:golang/github.com/puerco/hello@v0.0.1",
+      "type": "application",
+      "version": "v0.0.1",
+      "name": "pkg:golang/github.com/puerco/hello@v0.0.1"
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:golang/github.com/sirupsen/logrus@v1.9.0",
+      "type": "library",
+      "name": "github.com/sirupsen/logrus",
+      "version": "v1.9.0",
+      "purl": "pkg:golang/github.com/sirupsen/logrus@v1.9.0"
+    },
+    {
+      "bom-ref": "pkg:golang/golang.org/x/sys@v0.0.0-20220715151400-c0bba94af5f8",
+      "type": "library",
+      "name": "golang.org/x/sys",
+      "version": "v0.0.0-20220715151400-c0bba94af5f8",
+      "purl": "pkg:golang/golang.org/x/sys@v0.0.0-20220715151400-c0bba94af5f8"
+    },
+    {
+        "bom-ref": "fileref:go.mod",
+        "type":"file",
+        "name":"go.mod",
+        "hashes": [
+          {
+            "alg": "SHA-256",
+            "content": "41d2a081296703a15f9ae40198a994465236d521746393729c8e1eb9e5968925"
+          }
+        ]
+    },
+    {
+      "bom-ref": "fileref:go.sum",
+      "type":"file",
+      "name":"go.sum",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "8d3c874448d22f4931763c8a39737d1b482dde3fad0c8bb3b083dc6ca6744ec8"
+        }
+      ]
+    },
+    {
+      "bom-ref": "fileref:LICENSE",
+      "type":"file",
+      "name":"LICENSE",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        }
+      ]
+    },
+    {
+      "bom-ref": "fileref:main.go",
+      "type":"file",
+      "name":"main.go",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "87aad18aaf89d3e39e1e47cf5e3f1e0a554f0c544e7b5956215984a1585a5a0a"
+        }
+      ]
+    },
+    {
+      "bom-ref": "fileref:README.md",
+      "type":"file",
+      "name":"README.md",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "31cfb526ddff71841f5b719ef9feca6d6279e77b4af1283752a3b4854ff2fdf4"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:golang/github.com/puerco/hello@v0.0.1",
+      "dependsOn": [
+        "pkg:golang/github.com/sirupsen/logrus@v1.9.0",
+        "pkg:golang/golang.org/x/sys@v0.0.0-20220715151400-c0bba94af5f8",
+        "fileref:go.mod",
+        "fileref:go.sum",
+        "fileref:LICENSE",
+        "fileref:main.go",
+        "fileref:README.md"
+      ]
+    }
+  ]
+}

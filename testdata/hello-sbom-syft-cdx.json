@@ -1,0 +1,707 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:bb64d0f0-b7d9-4d60-a0cc-0577be45a834",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-04-24T12:25:46-07:00",
+    "tools": [
+      {
+        "vendor": "anchore",
+        "name": "syft",
+        "version": "0.74.1"
+      }
+    ],
+    "component": {
+      "bom-ref": "6d46616957a58b5f",
+      "type": "container",
+      "name": "registry.local:5001/chainguard-local/hello-df6843247fa9144cdc6e9692a8059ed9@sha256:3048c694c096dbb15e63a1f8bdf8f0646f894287d569c355ee3e65484a353c68",
+      "version": "sha256:61c094c1f778b0f228d57a5a9801fb7b22d5b8920027979c694d560ade6f14f0"
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:apk/alpine/alpine-baselayout-data@3.4.0-r0?arch=x86_64&upstream=alpine-baselayout&distro=alpine-3.18_alpha20230329&package-id=f6a4c404795f2706",
+      "type": "library",
+      "publisher": "Natanael Copa <ncopa@alpinelinux.org>",
+      "name": "alpine-baselayout-data",
+      "version": "3.4.0-r0",
+      "description": "Alpine base dir structure and init scripts",
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:alpine-baselayout-data:alpine-baselayout-data:3.4.0-r0:*:*:*:*:*:*:*",
+      "purl": "pkg:apk/alpine/alpine-baselayout-data@3.4.0-r0?arch=x86_64&upstream=alpine-baselayout&distro=alpine-3.18_alpha20230329",
+      "externalReferences": [
+        {
+          "url": "https://git.alpinelinux.org/cgit/aports/tree/main/alpine-baselayout",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "apkdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "ApkMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "apk"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:alpine-baselayout-data:alpine_baselayout_data:3.4.0-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:alpine_baselayout_data:alpine-baselayout-data:3.4.0-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:alpine_baselayout_data:alpine_baselayout_data:3.4.0-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:alpine-baselayout:alpine-baselayout-data:3.4.0-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:alpine-baselayout:alpine_baselayout_data:3.4.0-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:alpine_baselayout:alpine-baselayout-data:3.4.0-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:alpine_baselayout:alpine_baselayout_data:3.4.0-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:alpine:alpine-baselayout-data:3.4.0-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:alpine:alpine_baselayout_data:3.4.0-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:836a6d942afb8423cbd39ec5d92d396100d4a6689507b4b522c2ef357d6a2c0a"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/lib/apk/db/installed"
+        },
+        {
+          "name": "syft:metadata:gitCommitOfApkPort",
+          "value": "bd965a7ebf7fd8f07d7a0cc0d7375bf3e4eb9b24"
+        },
+        {
+          "name": "syft:metadata:installedSize",
+          "value": "77824"
+        },
+        {
+          "name": "syft:metadata:originPackage",
+          "value": "alpine-baselayout"
+        },
+        {
+          "name": "syft:metadata:pullChecksum",
+          "value": "Q15ffjKT28lB7iSXjzpI/eDdYRCwM="
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "11664"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:apk/alpine/alpine-keys@2.4-r1?arch=x86_64&distro=alpine-3.18_alpha20230329&package-id=e73b17e5eee0a5b9",
+      "type": "library",
+      "publisher": "Natanael Copa <ncopa@alpinelinux.org>",
+      "name": "alpine-keys",
+      "version": "2.4-r1",
+      "description": "Public keys for Alpine Linux packages",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:alpine-keys:alpine-keys:2.4-r1:*:*:*:*:*:*:*",
+      "purl": "pkg:apk/alpine/alpine-keys@2.4-r1?arch=x86_64&distro=alpine-3.18_alpha20230329",
+      "externalReferences": [
+        {
+          "url": "https://alpinelinux.org",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "apkdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "ApkMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "apk"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:alpine-keys:alpine_keys:2.4-r1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:alpine_keys:alpine-keys:2.4-r1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:alpine_keys:alpine_keys:2.4-r1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:alpine:alpine-keys:2.4-r1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:alpine:alpine_keys:2.4-r1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:836a6d942afb8423cbd39ec5d92d396100d4a6689507b4b522c2ef357d6a2c0a"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/lib/apk/db/installed"
+        },
+        {
+          "name": "syft:metadata:gitCommitOfApkPort",
+          "value": "aab68f8c9ab434a46710de8e12fb3206e2930a59"
+        },
+        {
+          "name": "syft:metadata:installedSize",
+          "value": "159744"
+        },
+        {
+          "name": "syft:metadata:originPackage",
+          "value": "alpine-keys"
+        },
+        {
+          "name": "syft:metadata:pullChecksum",
+          "value": "Q1kDF2stKo3e/RumlA8ZrRfCwdSv8="
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "13095"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:apk/alpine/alpine-release@3.18_alpha20230329-r0?arch=x86_64&upstream=alpine-base&distro=alpine-3.18_alpha20230329&package-id=e2d9f1b0fe07f81b",
+      "type": "library",
+      "publisher": "Natanael Copa <ncopa@alpinelinux.org>",
+      "name": "alpine-release",
+      "version": "3.18_alpha20230329-r0",
+      "description": "Alpine release data",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:alpine-release:alpine-release:3.18_alpha20230329-r0:*:*:*:*:*:*:*",
+      "purl": "pkg:apk/alpine/alpine-release@3.18_alpha20230329-r0?arch=x86_64&upstream=alpine-base&distro=alpine-3.18_alpha20230329",
+      "externalReferences": [
+        {
+          "url": "https://alpinelinux.org",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "apkdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "ApkMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "apk"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:alpine-release:alpine_release:3.18_alpha20230329-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:alpine_release:alpine-release:3.18_alpha20230329-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:alpine_release:alpine_release:3.18_alpha20230329-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:alpine:alpine-release:3.18_alpha20230329-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:alpine:alpine_release:3.18_alpha20230329-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:836a6d942afb8423cbd39ec5d92d396100d4a6689507b4b522c2ef357d6a2c0a"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/lib/apk/db/installed"
+        },
+        {
+          "name": "syft:metadata:gitCommitOfApkPort",
+          "value": "2782d1ed755d99b0864271e13759ec666656b493"
+        },
+        {
+          "name": "syft:metadata:installedSize",
+          "value": "40960"
+        },
+        {
+          "name": "syft:metadata:originPackage",
+          "value": "alpine-base"
+        },
+        {
+          "name": "syft:metadata:pullChecksum",
+          "value": "Q1jz5JXcx4lnw/wYSqCvhmRGmlU+4="
+        },
+        {
+          "name": "syft:metadata:pullDependencies:0",
+          "value": "alpine-keys"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "2287"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:apk/alpine/ca-certificates-bundle@20230106-r1?arch=x86_64&upstream=ca-certificates&distro=alpine-3.18_alpha20230329&package-id=fa63dfbfd5ab565b",
+      "type": "library",
+      "publisher": "Natanael Copa <ncopa@alpinelinux.org>",
+      "name": "ca-certificates-bundle",
+      "version": "20230106-r1",
+      "description": "Pre generated bundle of Mozilla certificates",
+      "licenses": [
+        {
+          "license": {
+            "id": "MPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:ca-certificates-bundle:ca-certificates-bundle:20230106-r1:*:*:*:*:*:*:*",
+      "purl": "pkg:apk/alpine/ca-certificates-bundle@20230106-r1?arch=x86_64&upstream=ca-certificates&distro=alpine-3.18_alpha20230329",
+      "externalReferences": [
+        {
+          "url": "https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "apkdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "ApkMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "apk"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ca-certificates-bundle:ca_certificates_bundle:20230106-r1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ca_certificates_bundle:ca-certificates-bundle:20230106-r1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ca_certificates_bundle:ca_certificates_bundle:20230106-r1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ca-certificates:ca-certificates-bundle:20230106-r1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ca-certificates:ca_certificates_bundle:20230106-r1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ca_certificates:ca-certificates-bundle:20230106-r1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ca_certificates:ca_certificates_bundle:20230106-r1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mozilla:ca-certificates-bundle:20230106-r1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mozilla:ca_certificates_bundle:20230106-r1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ca:ca-certificates-bundle:20230106-r1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ca:ca_certificates_bundle:20230106-r1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:836a6d942afb8423cbd39ec5d92d396100d4a6689507b4b522c2ef357d6a2c0a"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/lib/apk/db/installed"
+        },
+        {
+          "name": "syft:metadata:gitCommitOfApkPort",
+          "value": "84a227baf001b6e0208e3352b294e4d7a40e93de"
+        },
+        {
+          "name": "syft:metadata:installedSize",
+          "value": "233472"
+        },
+        {
+          "name": "syft:metadata:originPackage",
+          "value": "ca-certificates"
+        },
+        {
+          "name": "syft:metadata:provides:0",
+          "value": "ca-certificates-cacert=20230106-r1"
+        },
+        {
+          "name": "syft:metadata:pullChecksum",
+          "value": "Q1GVJ9oXGgPL9LiTdFZ9ZWLOoKLxY="
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "124660"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/puerco/hello@v0.0.0-20221122030313-fed9b28e2973?package-id=d3ea676ce38f49e1",
+      "type": "library",
+      "name": "github.com/puerco/hello",
+      "version": "v0.0.0-20221122030313-fed9b28e2973",
+      "cpe": "cpe:2.3:a:puerco:hello:v0.0.0-20221122030313-fed9b28e2973:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/puerco/hello@v0.0.0-20221122030313-fed9b28e2973",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:c1fc23f1b48478dd9d77a6d3881c9ba1eb57db5d2a2c4c3d0bfe4cca72b60b02"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/ko-app/hello"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goBuildSettings:-buildmode",
+          "value": "exe"
+        },
+        {
+          "name": "syft:metadata:goBuildSettings:-compiler",
+          "value": "gc"
+        },
+        {
+          "name": "syft:metadata:goBuildSettings:-trimpath",
+          "value": "true"
+        },
+        {
+          "name": "syft:metadata:goBuildSettings:CGO_ENABLED",
+          "value": "0"
+        },
+        {
+          "name": "syft:metadata:goBuildSettings:GOAMD64",
+          "value": "v1"
+        },
+        {
+          "name": "syft:metadata:goBuildSettings:GOARCH",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goBuildSettings:GOOS",
+          "value": "linux"
+        },
+        {
+          "name": "syft:metadata:goBuildSettings:vcs",
+          "value": "git"
+        },
+        {
+          "name": "syft:metadata:goBuildSettings:vcs.modified",
+          "value": "false"
+        },
+        {
+          "name": "syft:metadata:goBuildSettings:vcs.revision",
+          "value": "fed9b28e2973bee65bcc503c6ab6522e8bfdd3d1"
+        },
+        {
+          "name": "syft:metadata:goBuildSettings:vcs.time",
+          "value": "2022-11-22T03:03:13Z"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.20.3"
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/puerco/hello"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/sirupsen/logrus@v1.9.0?package-id=52b97908f0e5cf3d",
+      "type": "library",
+      "name": "github.com/sirupsen/logrus",
+      "version": "v1.9.0",
+      "cpe": "cpe:2.3:a:sirupsen:logrus:v1.9.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/sirupsen/logrus@v1.9.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:c1fc23f1b48478dd9d77a6d3881c9ba1eb57db5d2a2c4c3d0bfe4cca72b60b02"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/ko-app/hello"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.20.3"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:trlNQbNUG3OdDrDil03MCb1H2o9nJ1x4/5LYw7byDE0="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/puerco/hello"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/golang.org/x/sys@v0.0.0-20220715151400-c0bba94af5f8?package-id=62809dc81c92c053",
+      "type": "library",
+      "name": "golang.org/x/sys",
+      "version": "v0.0.0-20220715151400-c0bba94af5f8",
+      "cpe": "cpe:2.3:a:golang:x\\/sys:v0.0.0-20220715151400-c0bba94af5f8:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/golang.org/x/sys@v0.0.0-20220715151400-c0bba94af5f8",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:c1fc23f1b48478dd9d77a6d3881c9ba1eb57db5d2a2c4c3d0bfe4cca72b60b02"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/ko-app/hello"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.20.3"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:0A+M6Uqn+Eje4kHMK80dtF3JCXC4ykBgQG4Fe06QRhQ="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/puerco/hello"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:apk/alpine/tzdata@2023c-r1?arch=x86_64&distro=alpine-3.18_alpha20230329&package-id=b5ba89ae6e508386",
+      "type": "library",
+      "publisher": "Natanael Copa <ncopa@alpinelinux.org>",
+      "name": "tzdata",
+      "version": "2023c-r1",
+      "description": "Timezone data",
+      "licenses": [
+        {
+          "license": {
+            "name": "Public-Domain"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:tzdata:tzdata:2023c-r1:*:*:*:*:*:*:*",
+      "purl": "pkg:apk/alpine/tzdata@2023c-r1?arch=x86_64&distro=alpine-3.18_alpha20230329",
+      "externalReferences": [
+        {
+          "url": "https://www.iana.org/time-zones",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "apkdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "ApkMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "apk"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:836a6d942afb8423cbd39ec5d92d396100d4a6689507b4b522c2ef357d6a2c0a"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/lib/apk/db/installed"
+        },
+        {
+          "name": "syft:metadata:gitCommitOfApkPort",
+          "value": "84a227baf001b6e0208e3352b294e4d7a40e93de"
+        },
+        {
+          "name": "syft:metadata:installedSize",
+          "value": "3141632"
+        },
+        {
+          "name": "syft:metadata:originPackage",
+          "value": "tzdata"
+        },
+        {
+          "name": "syft:metadata:pullChecksum",
+          "value": "Q1+8gJ37p5lVXtcV0ytHJMe5FhlBw="
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "402805"
+        }
+      ]
+    },
+    {
+      "type": "operating-system",
+      "name": "alpine",
+      "version": "3.18_alpha20230329",
+      "description": "Alpine Linux edge",
+      "swid": {
+        "tagId": "alpine",
+        "name": "alpine",
+        "version": "3.18_alpha20230329"
+      },
+      "externalReferences": [
+        {
+          "url": "https://gitlab.alpinelinux.org/alpine/aports/-/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://alpinelinux.org/",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:distro:id",
+          "value": "alpine"
+        },
+        {
+          "name": "syft:distro:prettyName",
+          "value": "Alpine Linux edge"
+        },
+        {
+          "name": "syft:distro:versionID",
+          "value": "3.18_alpha20230329"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "sbom-sha256:3048c694c096dbb15e63a1f8bdf8f0646f894287d569c355ee3e65484a353c68",
+  "spdxVersion": "SPDX-2.2",
+  "creationInfo": {
+    "created": "2023-04-24T13:23:41Z",
+    "creators": [
+      "Tool: ko 0.12.0"
+    ]
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/ko/sha256:3048c694c096dbb15e63a1f8bdf8f0646f894287d569c355ee3e65484a353c68",
+  "documentDescribes": [
+    "SPDXRef-Package-sha256-3048c694c096dbb15e63a1f8bdf8f0646f894287d569c355ee3e65484a353c68"
+  ],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-sha256-3048c694c096dbb15e63a1f8bdf8f0646f894287d569c355ee3e65484a353c68",
+      "name": "sha256:3048c694c096dbb15e63a1f8bdf8f0646f894287d569c355ee3e65484a353c68",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:oci/image@sha256:3048c694c096dbb15e63a1f8bdf8f0646f894287d569c355ee3e65484a353c68?mediaType=application%2Fvnd.oci.image.manifest.v1%2Bjson",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-sha256-9efcaa8163c0e35e1f13e98582beaf07ab434678e90408624cf32315f4ae940e",
+      "name": "distroless.dev/static@sha256:9efcaa8163c0e35e1f13e98582beaf07ab434678e90408624cf32315f4ae940e",
+      "versionInfo": "distroless.dev/static:latest",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9efcaa8163c0e35e1f13e98582beaf07ab434678e90408624cf32315f4ae940e"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:oci/image@sha256:9efcaa8163c0e35e1f13e98582beaf07ab434678e90408624cf32315f4ae940e?repository_url=distroless.dev%2Fstatic\u0026tag=latest",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-github.com.puerco.hello-(devel)",
+      "name": "github.com/puerco/hello",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "downloadLocation": "https://github.com/puerco/hello",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:golang/github.com/puerco/hello@(devel)?type=module",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-github.com.sirupsen.logrus-v1.9.0",
+      "name": "github.com/sirupsen/logrus",
+      "versionInfo": "v1.9.0",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "downloadLocation": "https://proxy.golang.org/github.com/sirupsen/logrus/@v/v1.9.0.zip",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b6b94d41b3541b739d0eb0e2974dcc09bd47da8f67275c78ff92d8c3b6f20c4d"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:golang/github.com/sirupsen/logrus@v1.9.0?type=module",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-golang.org.x.sys-v0.0.0-20220715151400-c0bba94af5f8",
+      "name": "golang.org/x/sys",
+      "versionInfo": "v0.0.0-20220715151400-c0bba94af5f8",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "downloadLocation": "https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20220715151400-c0bba94af5f8.zip",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d00f8ce94aa7f848dee241cc2bcd1db45dc90970b8ca4060406e057b4e904614"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:golang/golang.org/x/sys@v0.0.0-20220715151400-c0bba94af5f8?type=module",
+          "referenceType": "purl"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-sha256-3048c694c096dbb15e63a1f8bdf8f0646f894287d569c355ee3e65484a353c68"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-3048c694c096dbb15e63a1f8bdf8f0646f894287d569c355ee3e65484a353c68",
+      "relationshipType": "DESCENDANT_OF",
+      "relatedSpdxElement": "SPDXRef-Package-sha256-9efcaa8163c0e35e1f13e98582beaf07ab434678e90408624cf32315f4ae940e"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-3048c694c096dbb15e63a1f8bdf8f0646f894287d569c355ee3e65484a353c68",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-github.com.puerco.hello-(devel)"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-github.com.puerco.hello-(devel)",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-github.com.sirupsen.logrus-v1.9.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-github.com.puerco.hello-(devel)",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-golang.org.x.sys-v0.0.0-20220715151400-c0bba94af5f8"
+    }
+  ]
+}
